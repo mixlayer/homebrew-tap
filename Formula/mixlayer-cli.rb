@@ -1,7 +1,7 @@
 class MixlayerCli < Formula
     desc "Example binary from GitHub"
     homepage "https://mixlayer.com"
-    version "0.1.0" 
+    version "0.1.2-rc0" 
 
     if OS.mac? && Hardware::CPU.arm?
         url "https://github.com/mixlayer/homebrew-tap/releases/download/v#{version}/mixlayer-cli.tar.gz"
