@@ -1,11 +1,11 @@
 class MixlayerCli < Formula
     desc "Mixlayer CLI"
     homepage "https://mixlayer.com"
-    version 0.1.8
+    version 0.1.9
 
     if OS.mac? && Hardware::CPU.arm?
         url "https://github.com/mixlayer/homebrew-tap/releases/download/v#{version}/mixlayer-cli-#{version}.tar.gz"
-        sha256 aab56f70adf1a6c7cd61fb90ab9e5569954cdde261dfe1a21b0c17b251e1d109
+        sha256 e615e3efa30d30ca99eae85429c7ed3dca0f81c554e6dc36343c5a8c36bfe14f
     end
 
     def install
